@@ -1,6 +1,6 @@
 [![Main programming language](https://img.shields.io/github/languages/top/lassefolkersen/impute-me?style=flat-square)](https://cran.r-project.org)
 [![Updates on twitter](https://img.shields.io/twitter/follow/imputeme?label=twitter&style=flat-square)](https://twitter.com/ImputeMe)
-[![Docker Container available](https://img.shields.io/docker/v/lassefolkersen/impute-me?label=docker)](https://hub.docker.com/repository/docker/lassefolkersen/impute-me)
+[![Docker Container available](https://img.shields.io/docker/v/lassefolkersen/impute-me?label=docker)](https://hub.docker.com/r/biocontainers/imputeme)
 
 # Impute.me code
 
@@ -60,7 +60,7 @@ An area of active development is the calculation of absolute risk scores, i.e. w
 ## Part 3: Behind the scenes
 
 
-Unlike the two previous sections, which are of some importance as website-user, it is not necessary to understand the detailed processes of data-handling when interpreting your genetic data. An overview is provided here for reference. This is also useful if you want to make custom setups, e.g. when running the algorithms locally in a [docker container](https://hub.docker.com/repository/docker/lassefolkersen/impute-me), where many of the data flows can be tuned and modified. 
+Unlike the two previous sections, which are of some importance as website-user, it is not necessary to understand the detailed processes of data-handling when interpreting your genetic data. An overview is provided here for reference. This is also useful if you want to make custom setups, e.g. when running the algorithms locally in a [docker container](https://hub.docker.com/r/biocontainers/imputeme), where many of the data flows can be tuned and modified. 
 
 ![Schematics](www/data_flow_diagram.png)
 
